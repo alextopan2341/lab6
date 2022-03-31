@@ -14,7 +14,7 @@
 #include <iostream>
 using namespace std;
 
-void readVector(int &n, Square v[], Repo & repo){
+void readVector(int &n, Repo & repo){
     float x,y,z,w;
     int i;
     cin>>n;
@@ -27,16 +27,13 @@ void readVector(int &n, Square v[], Repo & repo){
 
         if(isSquare(x,y,z,w)) {
             Square sqr(i,x, y, z, w);
-            v[i] = sqr;
             repo.addEntity(sqr);
-            //cout << v[i] << endl;
         }
         else{
             cout<<"That cannot be a square! Try again!"<<endl;
             i--;
         }
     }
-
 }
 
 void printVector(int n, Repo repo) {

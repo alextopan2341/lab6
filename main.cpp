@@ -5,7 +5,8 @@
 
 int main() {
     Square v[101],rez[101];
-    runMenu(v,rez);
     //tests();
+    runMenu(v,rez);
+
     return 0;
 }

@@ -25,7 +25,7 @@ int runMenu(Square v[],Square rez[]){
         {
             case 'c':
                 cout<<"Numbers of squares: ";
-                readVector(n, v,repo);
+                readVector(n,repo);
                 break;
             case 'a':
                 printVector(n,repo);

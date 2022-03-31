@@ -9,6 +9,7 @@
 #include "../Repo/Repo.h"
 
 void Options();
-void readVector(int &n, Square v[], Repo &repo);
+void readVector(int &n, Repo &repo);
 void printVector(int n, Repo repo);
+
 #endif //LAB5_CONSOLE_H

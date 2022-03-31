@@ -39,14 +39,6 @@ std::ostream &operator<<(ostream &os, const Square &sqr) {
     return os;
 }
 
-void Square::setCoordinates(int i,float a, float b, float c, float d) {
-    this->id = i;
-    this->x1 = a;
-    this->y1 = b;
-    this->x2 = c;
-    this->y2 = d;
-}
-
 Square &Square::operator=(const Square &sqr) {
     this->id = sqr.id;
     this->x1 = sqr.x1;
